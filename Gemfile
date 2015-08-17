@@ -4,6 +4,7 @@ gem 'devise'
 gem 'friendly_id', '~> 5.1.0'
 gem "paperclip", "~> 4.3"
 gem 'kaminari'
+gem 'rails_admin'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
