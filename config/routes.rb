@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/edit_profile', to: "users#edit_profile"
+
   resources :topics do
     resources :posts
   end
