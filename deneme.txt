@@ -1,0 +1,14 @@
+    1  rails new forum
+    2  cd forum
+    3  bundle
+    4  rails g devise:install
+    5  rails g devise:views
+    6  rails g devise User
+    7  rails g devise:views
+    8  rake routes
+    9  rake db:migrate
+   10  rake db:migrate:status
+   11  rails generate devise:controllers devise
+   12  rails d devise:controllers devise
+   13  rails s
+   14  history
